@@ -7,7 +7,6 @@ A simple Python tool to convert H.265 (HEVC) video files to H.264 (AVC) with sup
 ## Features
 
 - **GPU or CPU Encoding**: Choose between faster GPU encoding using your NVIDIA graphics card (CUDA/NVENC) or CPU-based encoding (libx264) for better quality.
-- **Progress Tracking**: Get a live percentage of conversion progress.
 - **Automatic Logging**: All logs for each conversion are saved to a log file in the `logs/` directory.
 - **Resolution Detection**: Automatically detects the video resolution and includes it in the output filename.
 - **Codec Detection**: If the input is already H.264, it will skip re-encoding and copy the video file directly.
