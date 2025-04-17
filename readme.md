@@ -20,10 +20,8 @@ A simple Python tool to convert H.265 (HEVC) video files to H.264 (AVC) with sup
 Make sure you have the following installed:
 
 1. **Python 3.x**: This script requires Python to run.
-2. **FFmpeg**: You need FFmpeg installed on your machine. It should be available in your system's PATH.
-   - You can download it from [FFmpeg official website](https://ffmpeg.org/download.html).
 
-3. **NVIDIA GPU (Optional)**: For hardware acceleration, you need a compatible NVIDIA GPU and the appropriate drivers for CUDA and NVENC.
+2. **NVIDIA GPU (Optional)**: For hardware acceleration, you need a compatible NVIDIA GPU and the appropriate drivers for CUDA and NVENC.
 
 ---
 
@@ -32,22 +30,9 @@ Make sure you have the following installed:
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/yourusername/h265-to-h264-converter.git
-    cd h265-to-h264-converter
+    git clone https://github.com/sheet315/HVEC-Decoder.git
+    cd HVEC-Decoder
     ```
-
-2. **Install Python dependencies**:
-
-    If you don't have `subprocess` and `os` installed, they are part of the standard Python library, so no need for additional installation.
-
-    For GPU encoding, make sure your **NVIDIA drivers** and **CUDA toolkit** are installed.
-
-3. **Make sure FFmpeg is installed**:
-
-    If FFmpeg isn't installed, use the following commands:
-    
-    - On **Windows**, you can install FFmpeg via `choco install ffmpeg`.
-    - On **macOS** or **Linux**, use `brew install ffmpeg` (for macOS) or `sudo apt install ffmpeg` (for Ubuntu).
 
 ---
 
@@ -58,7 +43,7 @@ Make sure you have the following installed:
     After running the script, you will be prompted to drag and drop your H.265 video file into the terminal window.
     
     - The script will automatically detect the codec and resolution of the video.
-    - You will be asked to choose between GPU (fast, using `h264_nvenc`) or CPU encoding (libx264 for better quality).
+    - You will be asked to choose between GPU (fast, using `h264_nvenc`) or CPU encoding (`libx264` for better quality).
     
     The conversion progress will be shown, and the output file will be saved in the same directory with a `-processed` suffix.
 
