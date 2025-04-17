@@ -44,7 +44,7 @@ Make sure you have the following installed:
     - The script will automatically detect the codec and resolution of the video.
     - You will be asked to choose between GPU (fast, using `h264_nvenc`) or CPU encoding (`libx264` for better quality).
     
-    The conversion progress will be shown, and the output file will be saved in the same directory with a `-processed` suffix.
+    The output file will be saved in the same directory with a `-processed` suffix.
 
 2. **Output**:
 
