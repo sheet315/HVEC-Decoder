@@ -55,7 +55,7 @@ Make sure you have the following installed:
 
 ---
 
-## Example
+## How to Use
 
 To use the script, simply run:
 
