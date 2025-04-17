@@ -19,7 +19,7 @@ A simple Python tool to convert H.265 (HEVC) video files to H.264 (AVC) with sup
 
 Make sure you have the following installed:
 
-1. **Python 3.x**: This script requires Python to run.
+1. **Python 3.9+**: This script requires Python to run.
 
 2. **NVIDIA GPU (Optional)**: For hardware acceleration, you need a compatible NVIDIA GPU and the appropriate drivers for CUDA and NVENC.
 
